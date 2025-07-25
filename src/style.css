@@ -1,5 +1,13 @@
-* {
+.dropdown-menu {
+    display: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+.dropdown-menu.visible {
+    display: block;
+}
+
+.dropdown-menu li {
+  list-style: none;
 }
