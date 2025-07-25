@@ -1,26 +1,15 @@
-# Webpack Starter Template
+# Dropdown Module
 
-A thing to clone because life's too short!!
+Basic JavaScript dropdown-on-hover UI module made for TOP.
 
-Includes: `index.js`, `style.css`, and `template.html`.
-
----
-
-## Use
-
-Smash that green ["Use this template"](https://github.com/new?template_name=webpack-starter-template&template_owner=ivanRsalcedo) button on GitHub  
-→ name your repo
-→ then:
-
-```bash
-git clone https://github.com/yourname/your-new-repo.git
+## Example Usage
+```html
+<div class="dropdown">
+  <button class="dropdown-btn">Menu</button>
+  <ul class="dropdown-menu">
+    <li><button>File</button></li>
+    <li><button>Edit</button></li>
+    <li><button>View</button></li>
+  </ul>
+</div>
 ```
-```
-cd your-new-repo
-```
-```
-npm install
-code .
-npm start
-```
-
