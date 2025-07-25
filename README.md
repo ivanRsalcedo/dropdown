@@ -2,6 +2,12 @@
 
 Basic JavaScript dropdown-on-hover UI module made for TOP.
 
+## Installation
+
+```bash
+npm install ducky-dropdown
+```
+
 ## Example Usage
 ```html
 <div class="dropdown">
