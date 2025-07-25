@@ -3,7 +3,8 @@ export function initDropdowns() {
 
     dropdowns.forEach(i => {
         const menu = i.querySelector('.dropdown-menu');
-        const btn = i.querySelector('dropdown-btn');
+
+        if (!menu) return;
 
         i.addEventListener('mouseover', () => {
             menu.classList.add('visible');
